@@ -3,6 +3,7 @@ The dataset can be downloaded from : [1](https://e.pcloud.link/publink/show?code
 
 ## Reader for the dataset
 Reader for the dataset: [ReadAndDisplay.py](https://github.com/sagieppel/MatSeg-Dataset/blob/main/ReadAndDisplay.py)
+Sample of the dataset available at [/sample](https://github.com/sagieppel/MatSeg-Dataset/sample/)
 
 ## Dataset Structure
 Each folder contains one image and its segmentation map.
