@@ -10,7 +10,7 @@ RGB__RGB.jpg: The image rgb
 Mask**.png: where ** a number of the mask of a given material, note materials can overlap and values can be between 0-255 (soft).
 
 ObjectMaskOcluded.png: Basically the ROI mask means the region that is annotated, anything not marked in this mask is background and is not annotated.
-
+![Figure 2](/Figure3.jpg)
 ## Additional Data
 
 See paper: [Learning Zero-Shot Material States Segmentation, by Implanting Natural Image Patterns in Synthetic Data](https://arxiv.org/ftp/arxiv/papers/2403/2403.03309.pdf), for more details.
