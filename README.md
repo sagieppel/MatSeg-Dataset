@@ -1,7 +1,7 @@
 # MatSeg Dataset for Zero-Shot Class Agnostic Material Segmentation
 The dataset can be downloaded from : [1](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[2](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
 
-Sample of the dataset available at  the[sample dir](https://github.com/sagieppel/MatSeg-Dataset/tree/main/sample).
+Sample of the dataset available at  the [sample dir](https://github.com/sagieppel/MatSeg-Dataset/tree/main/sample).
 
 ## Reader for the dataset
 Reader for the dataset: [ReadAndDisplay.py](https://github.com/sagieppel/MatSeg-Dataset/blob/main/ReadAndDisplay.py).
@@ -17,8 +17,8 @@ ObjectMaskOcluded.png: Basically the ROI mask means the region that is annotated
 ![Figure 2](/Figure3.jpg)
 ## Additional Data
 
-See paper: [Learning Zero-Shot Material States Segmentation, by Implanting Natural Image Patterns in Synthetic Data](https://arxiv.org/ftp/arxiv/papers/2403/2403.03309.pdf), for more details.
+See the paper: [Learning Zero-Shot Material States Segmentation, by Implanting Natural Image Patterns in Synthetic Data](https://arxiv.org/ftp/arxiv/papers/2403/2403.03309.pdf), for more details.
 
-See dataset generation script used to generate this data available at:
+See the dataset generation script used to generate this data available at:
 [https://github.com/sagieppel/MatSeg-Synthethic-Dataset-Generation-Script](https://github.com/sagieppel/MatSeg-Synthethic-Dataset-Generation-Script) 
 
