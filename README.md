@@ -1,5 +1,5 @@
 # MatSeg Dataset for Zero-Shot Class Agnostic Material Segmentation
-The dataset can be downloaded from :[1](https://zenodo.org/records/10801191) [2](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[3](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
+The dataset can be downloaded from :[1](https://zenodo.org/records/10801191), [2](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[3](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
 
 Sample of the dataset available at  the [sample dir](https://github.com/sagieppel/MatSeg-Dataset/tree/main/sample).
 
@@ -14,13 +14,19 @@ Reader for the dataset: [ReadAndDisplay.py](https://github.com/sagieppel/MatSeg-
 
 
 
-## Dataset Structure
+## Synthethic Training Dataset Structure
 Each folder contains one image and its segmentation map.
 RGB__RGB.jpg: The image rgb
 Mask**.png: where ** a number of the mask of a given material, note materials can overlap and values can be between 0-255 (soft).
 
 ObjectMaskOcluded.png: Basically the ROI mask means the region that is annotated, anything not marked in this mask is background and is not annotated.
-![Figure 2](/Figure3.jpg)
+![Figure 1](/Figure3.jpg)
+
+## Real-world image Benchmark
+ 
+A benchmark for zero-shot material state segmentation. The benchmark contains 820 real-world images with a wide range of material states and settings. For example: food states (cooked/burned..), plants (infected/dry.) to rocks/soil (minerals/sediment),  construction/metals (rusted, worn),  liquids  (foam/sediment), and many other states in a class-agnostic manner.  The goal is to evaluate the segmentation of material materials without knowledge or pretraining on the material or setting. The focus is on materials with complex scattered boundaries, and gradual transition  (like the level of wetness of the surface). The annotation of the benchmark is point-based and similarity-based. Hence, for each image, we select several points and regions (Figure 2). We group the points of the same materials into the same label, we also define a group of points that have partial similarity. For example points in group A are more similar to points in group B than to points in group C (In case materials A and B are similar to each other but not identical). This approach allows us to capture the complexity of gradual transition and partial similarities in the world. While also enabling dealing with complex scattered and blurry shapes without needing to annotate the full shape which in many cases is unclear or very hard
+
+![Figure 1](/Figure4.jpg)
 ## Additional Data
 
 See the paper: [Learning Zero-Shot Material States Segmentation, by Implanting Natural Image Patterns in Synthetic Data](https://arxiv.org/ftp/arxiv/papers/2403/2403.03309.pdf), for more details.
