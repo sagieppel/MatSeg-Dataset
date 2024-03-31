@@ -1,9 +1,13 @@
 # MatSeg Dataset for Zero-Shot Class Agnostic Material Segmentation
-The dataset can be downloaded from : [1](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[2](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
+The dataset can be downloaded from :[1](https://zenodo.org/records/10801191) [2](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[3](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
 
 Sample of the dataset available at  the [sample dir](https://github.com/sagieppel/MatSeg-Dataset/tree/main/sample).
 
 See the paper [Learning Zero-Shot Material States Segmentation, by Implanting Natural Image Patterns in Synthetic Data](https://arxiv.org/pdf/2403.03309.pdf) for more details. 
+
+# Description
+MatSeg Dataset for Zero-Shot Material States Segmentation: The dataset contains large-scale synthetic images for training data and highly diverse real-world image benchmarks for testing. Focusing on zero-shot class-agnostic segmentation of materials and their states. This means finding the region of materials states without pre-training on the specific material classes or states. The benchmark contains a wide range of real-world materials and states. For example: wet regions of the surface, scattered dust, minerals of rocks, the sediment of soils, rotten parts of fruits, degraded and corrosive surface regions, food and liquid states, and many others. The focus is on scattered and fragmented materials, as well as soft boundaries partial transition, and partial similarity between regions. It contains both hard segmentation maps and soft and partial similarity annotations for similar but not identical materials
+
 
 ## Reader for the dataset
 Reader for the dataset: [ReadAndDisplay.py](https://github.com/sagieppel/MatSeg-Dataset/blob/main/ReadAndDisplay.py).
