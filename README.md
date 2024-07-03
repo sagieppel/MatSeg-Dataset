@@ -1,5 +1,5 @@
 # MatSeg Dataset for Zero-Shot Class Agnostic Material Segmentation
-The dataset can be downloaded from :[1](https://zenodo.org/records/10801191), [2](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[3](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
+The dataset can be downloaded from :[1](https://zenodo.org/records/11331618), [2](https://e.pcloud.link/publink/show?code=kZHCcnZOfzqInb3anSl7xzFBoqCDmkr2JKV),[3](https://icedrive.net/s/SBb3g9WzQ5wZuxX9892Z3R4bW8jw).
 
 Sample of the dataset available at  the [sample dir](https://github.com/sagieppel/MatSeg-Dataset/tree/main/sample).
 
