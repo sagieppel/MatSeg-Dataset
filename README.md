@@ -11,7 +11,8 @@ MatSeg Dataset for Zero-Shot Material States Segmentation: The dataset contains 
 
 ## Reader for the dataset
 Reader for the dataset: [ReadAndDisplay.py](https://github.com/sagieppel/MatSeg-Dataset/blob/main/ReadAndDisplay.py).
-Evaluation script for benchmark: [https://zenodo.org/records/13402003](https://zenodo.org/records/13402003) 
+
+Evaluation script for benchmark: [https://zenodo.org/records/13402003](https://zenodo.org/records/13402003). 
 
 
 ## Synthethic Training Dataset Structure
